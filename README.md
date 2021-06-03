@@ -5,8 +5,8 @@
 - This is a manual written to know more about you Package Manager
 
 
-## DEBIAN / BASED
-### apt - Advanced Package Tool 
+### DEBIAN / BASED
+#### apt - Advanced Package Tool 
 ```
   FLAGS :-
    
@@ -24,8 +24,8 @@
 -----
 
 
-## ARCH / ARCH BASED
-### pacman - Package Manager / Yay - yet another yogurt
+### ARCH / ARCH BASED
+#### pacman - Package Manager / Yay - yet another yogurt
 ```
   FLAGS :-
    
@@ -43,8 +43,8 @@
 
 -----
 
-## GENTOO / GENTOO BASED 
-### emerge - Portage
+### GENTOO / GENTOO BASED 
+#### emerge - Portage
 ```
   FLAGS :-
    
@@ -58,8 +58,8 @@
 
 -----
 
-## FEDORA - SILVER BLUE INCLUDED3 
-### dnf - stand for nothing
+### FEDORA - SILVER BLUE INCLUDED3 
+#### dnf - stand for nothing
 ```
   FLAGS :-                                                           
 
