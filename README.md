@@ -71,10 +71,10 @@
        upgrade - upgrade system                                |  [R] uninstall <PACKAGE> : remove a layered package
        distro-syn - upgrade distro as whole                    |  [R] status : system status
        clean-all - remove obsolete info                        |  [R] upgrade : upgrade to latest snapshot
-       autoremove - remove dependencies of a removed package   | 
-                                                               |  rpm-fdtree rebase <REMOTE>:<BRANCH> : switch to a different OS branch
-                                                               |  rpm-ostree rollback : rollback to the previous deployment
-                                                               |  rpm-ostree cleanup --rollback : remove previous deployment
+       autoremove - remove dependencies of a removed package   |  [R] upgrade --check : check for available update
+                                                               |  [R] rebase <REMOTE>:<BRANCH> : switch to a different OS branch
+                                                               |  [R] rollback : rollback to the previous deployment
+                                                               |  [R] cleanup --rollback : remove previous deployment
 
 
 ``` 
