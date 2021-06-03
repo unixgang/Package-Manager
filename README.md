@@ -55,3 +55,26 @@
        -avuDN --with-bdeps y --keep-going world : upgrade whole system
        etc-update : updating system config
 ``` 
+
+-----
+
+## FEDORA - SILVER BLUE INCLUDED3 
+### dnf - stand for nothing
+```
+  FLAGS :-                                                           SILVERBLUE :-
+   
+       install - install a package                               |  ostree remote list : list configured remotes
+       remove - remove a package                                 |  ostree remote add <REMOTE> <URL> : add remote
+       search - search for a package                             |  ostree remote delete <REMOTE> : remove remote
+       update - sync system with repos                           |  ostree remote refs <REMOTE> : list remote contents
+       reinstall - reinstall package                             |  rpm-ostree install <PACKAGE> : install package as a layer
+       upgrade - upgrade system                                  |  rpm-ostree uninstall <PACKAGE> : remove a layered package
+       distro-syn - upgrade distro as whole                      |  rpm-ostree status : system status
+       clean-all - remove obsolete info                          |  rpm-ostree upgrade : upgrade to latest snapshot
+       autoremove - remove dependencies of a removed package     |  rpm-ostree upgrade --check : check for available updates
+                                                                 |  rpm-ostree rebase <REMOTE>:<BRANCH> : switch to a different OS branch
+                                                                 |  rpm-ostree rollback : rollback to the previous deployment
+                                                                 |  rpm-ostree cleanup --rollback : remove previous deployment
+
+
+``` 
