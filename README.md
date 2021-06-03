@@ -124,3 +124,18 @@
 ``` 
 
 -----
+
+### Solus / BASED
+#### eopkg - forked from Pisi 
+```
+  FLAGS :-
+   
+       install - install a package
+       remove - remove a package
+       search - search for a package
+       upgrade - upgrade system
+       -rmo - remove obsolete packages
+       info - get info of particular package
+``` 
+
+-----
