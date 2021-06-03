@@ -89,3 +89,38 @@
        [R] rollback : rollback to the previous deployment
        [R] cleanup --rollback : remove previous deployment
 ``` 
+
+-----
+
+### OpenSUSE / Gecko 
+#### zypper - YaST
+```
+  FLAGS :-
+   
+       install\in  : install a package
+       remove\rm   : remove a package
+       search\se   : search for a package
+       update\up   : sync system with repos
+       upgrade\dup : upgrade system
+       rm -u  : remove obsolete info
+       clean  : clean all local caches
+       autoremove : remove dependencies of a removed package
+
+```
+
+-----
+
+### Solus / BASED
+#### eopkg - forked from Pisi 
+```
+  FLAGS :-
+   
+       install - install a package
+       remove - remove a package
+       search - search for a package
+       upgrade - upgrade system
+       -rmo - remove obsolete packages
+       info - get info of particular package
+``` 
+
+-----
