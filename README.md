@@ -61,20 +61,31 @@
 ## FEDORA - SILVER BLUE INCLUDED3 
 ### dnf - stand for nothing
 ```
-  FLAGS :-                                                           SILVERBLUE :- [O] - ostree , [R] - rpm-ostree
-   
-       install - install a package              |  [O] remote list : list configured remotes
-       remove - remove a package                |  [O] remote add <REMOTE> <URL> : add remote
-       search - search for a package            |  [O] remote delete <REMOTE> : remove remote
-       update - sync system with repos          |  [O] remote refs <REMOTE> : list remote contents
-       reinstall - reinstall package            |  [R] install <PACKAGE> : install package as a layer
-       upgrade - upgrade system                 |  [R] uninstall <PACKAGE> : remove a layered package
-       distro-syn - upgrade distro as whole     |  [R] status : system status
-       clean-all - remove obsolete info         |  [R] upgrade : upgrade to latest snapshot
-       autoremove - remove unwanted packages    |  [R] upgrade --check : check for available update
-                                                |  [R] rebase <REMOTE>:<BRANCH> : switch branch
-                                                |  [R] rollback : rollback to the previous deployment
-                                                |  [R] cleanup --rollback : remove previous deployment
+  FLAGS :-                                                           
 
-
+       install - install a package              
+       remove - remove a package                
+       search - search for a package            
+       update - sync system with repos          
+       reinstall - reinstall package            
+       upgrade - upgrade system                 
+       distro-syn - upgrade distro as whole     
+       clean-all - remove obsolete info         
+       autoremove - remove unwanted packages    
+                                                     
+                                                     
+  SILVERBLUE :- [O] - ostree , [R] - rpm-ostree
+  
+       [O] remote list : list configured remotes
+       [O] remote add <REMOTE> <URL> : add remote
+       [O] remote delete <REMOTE> : remove remote
+       [O] remote refs <REMOTE> : list remote contents
+       [R] install <PACKAGE> : install package as a layer
+       [R] uninstall <PACKAGE> : remove a layered package
+       [R] status : system status
+       [R] upgrade : upgrade to latest snapshot
+       [R] upgrade --check : check for available update
+       [R] rebase <REMOTE>:<BRANCH> : switch branch
+       [R] rollback : rollback to the previous deployment
+       [R] cleanup --rollback : remove previous deployment
 ``` 
