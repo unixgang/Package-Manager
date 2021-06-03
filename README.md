@@ -63,18 +63,18 @@
 ```
   FLAGS :-                                                           SILVERBLUE :- [O] - ostree , [R] - rpm-ostree
    
-       install - install a package                             |  [O] remote list : list configured remotes
-       remove - remove a package                               |  [O] remote add <REMOTE> <URL> : add remote
-       search - search for a package                           |  [O] remote delete <REMOTE> : remove remote
-       update - sync system with repos                         |  [O] remote refs <REMOTE> : list remote contents
-       reinstall - reinstall package                           |  [R] install <PACKAGE> : install package as a layer
-       upgrade - upgrade system                                |  [R] uninstall <PACKAGE> : remove a layered package
-       distro-syn - upgrade distro as whole                    |  [R] status : system status
-       clean-all - remove obsolete info                        |  [R] upgrade : upgrade to latest snapshot
-       autoremove - remove dependencies of a removed package   |  [R] upgrade --check : check for available update
-                                                               |  [R] rebase <REMOTE>:<BRANCH> : switch to different branch
-                                                               |  [R] rollback : rollback to the previous deployment
-                                                               |  [R] cleanup --rollback : remove previous deployment
+       install - install a package                            |  [O] remote list : list configured remotes
+       remove - remove a package                              |  [O] remote add <REMOTE> <URL> : add remote
+       search - search for a package                          |  [O] remote delete <REMOTE> : remove remote
+       update - sync system with repos                        |  [O] remote refs <REMOTE> : list remote contents
+       reinstall - reinstall package                          |  [R] install <PACKAGE> : install package as a layer
+       upgrade - upgrade system                               |  [R] uninstall <PACKAGE> : remove a layered package
+       distro-syn - upgrade distro as whole                   |  [R] status : system status
+       clean-all - remove obsolete info                       |  [R] upgrade : upgrade to latest snapshot
+       autoremove - remove dependencies of a removed package  |  [R] upgrade --check : check for available update
+                                                              |  [R] rebase <REMOTE>:<BRANCH> : switch branch
+                                                              |  [R] rollback : rollback to the previous deployment
+                                                              |  [R] cleanup --rollback : remove previous deployment
 
 
 ``` 
