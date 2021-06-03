@@ -139,3 +139,33 @@
 ``` 
 
 -----
+
+### Snapcraft
+#### snap - a not so universal package manager (Systemd only)
+```
+  FLAGS :-
+   
+       install - install a package
+       remove - remove a package
+       find - search for a package
+       update - upgrade packages
+       remove --all - remove obsolete packages
+       info - get info of particular package
+       list - list installed package
+``` 
+
+-----
+
+### Clear Linux
+#### swupd - Bundle style Package Manager
+```
+  FLAGS :-
+   
+       bundle-add - install a bundle
+       bundle-remove - remove a bundle
+       search - search for a package
+       update - upgrade packages
+       check-update - manually check for updates
+       info - get info of particular package
+       bundle-list - list installed bundles
+``` 
