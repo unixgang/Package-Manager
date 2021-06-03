@@ -5,7 +5,7 @@
 - This is a manual written to know more about you Package Manager
 
 
-## DEBIAN 
+## DEBIAN / BASED
 ### apt - Advanced Package Tool 
 ```
   FLAGS :-
@@ -19,4 +19,39 @@
        autoclean - remove obsolete info
        clean - clean all local caches
        autoremove - remove dependencies of a removed package
+``` 
+
+-----
+
+
+## ARCH / ARCH BASED
+### pacman - Package Manager / Yay - yet another yogurt
+```
+  FLAGS :-
+   
+       -S - install a package
+       -Rs - remove a package
+       -Ss - search for a package
+       -Sy - sync system with repos
+       -Syu - upgrade system
+       -Sc - clean all local caches
+       pacman -Qdtq | pacman -Rs - = remove dependencies of a removed package
+       
+       [ You can use downgrade from the AUR to downgrade packages that gets broken in an update ]
+       
+``` 
+
+-----
+
+## GENTOO / GENTOO BASED 
+### emerge - Portage
+```
+  FLAGS :-
+   
+       [-a]  : install a package
+       [-a]C : remove a package
+       -S    : search for a package
+       -sync : sync system with repos
+       -avuDN --with-bdeps y --keep-going world : upgrade whole system
+       etc-update : updating system config
 ``` 
