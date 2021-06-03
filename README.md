@@ -110,7 +110,7 @@
 
 -----
 
-### Solus / BASED
+### Solus
 #### eopkg - forked from Pisi 
 ```
   FLAGS :-
@@ -125,16 +125,16 @@
 
 -----
 
-### Solus / BASED
-#### eopkg - forked from Pisi 
+### Flatpak
+#### flatpak - a  universal package manager 
 ```
   FLAGS :-
    
        install - install a package
-       remove - remove a package
+       uninstall - remove a package
        search - search for a package
-       upgrade - upgrade system
-       -rmo - remove obsolete packages
+       update - upgrade packages
+       remove --all - remove obsolete packages
        info - get info of particular package
 ``` 
 
