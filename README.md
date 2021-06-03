@@ -72,7 +72,7 @@
        distro-syn - upgrade distro as whole                    |  [R] status : system status
        clean-all - remove obsolete info                        |  [R] upgrade : upgrade to latest snapshot
        autoremove - remove dependencies of a removed package   |  [R] upgrade --check : check for available update
-                                                               |  [R] rebase <REMOTE>:<BRANCH> : switch to a different OS branch
+                                                               |  [R] rebase <REMOTE>:<BRANCH> : switch to different branch
                                                                |  [R] rollback : rollback to the previous deployment
                                                                |  [R] cleanup --rollback : remove previous deployment
 
